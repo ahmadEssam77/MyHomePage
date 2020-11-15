@@ -1,0 +1,38 @@
+/* Global styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style for bar that contains buttons */
+.bar {
+    background-color: rgb(174, 191, 248);
+    height: 90px;
+    overflow: auto;
+}
+
+/* Style the links in the bar class */
+.nav {
+    background-color: rgb(174, 191, 248);
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 33.333%;
+    padding: 35px 0;
+    color: #FFF;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.3s;
+}
+
+/* Hover styling */
+.nav:hover {
+    color: #FFF;
+    background-color: rgb(79, 60, 148);
+}
+
+/* Hide the content inside every page */
+.pageContent {
+    display: none;
+}
