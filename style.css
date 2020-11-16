@@ -5,17 +5,22 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
+
 /* Style for bar that contains buttons */
-.bar {
+/* .bar {
     background-color: rgb(174, 191, 248);
     height: 90px;
     overflow: auto;
-}
+} */
 
 /* Style the links in the bar class */
 .nav {
     background-color: rgb(174, 191, 248);
     border: none;
+    outline: none;
     cursor: pointer;
     float: left;
     width: 33.333%;
@@ -28,11 +33,33 @@
 
 /* Hover styling */
 .nav:hover {
-    color: #FFF;
-    background-color: rgb(79, 60, 148);
+    background-color: #777;
 }
 
-/* Hide the content inside every page */
+/* Active home page */
+/* .home {
+    background-color: rgb(79, 60, 148);
+} */
+
+/* Style the content inside every page */
 .pageContent {
     display: none;
+    color: #FFF;
+    padding: 100px 20px;
+    height: 100%;     /* 100% height for full page content */
 }
+
+
+/* adding color */
+#Home {
+    background-color: blue;
+}
+
+#About {
+    background-color: green;
+}
+
+#Contact {
+    background-color:orange;
+}
+

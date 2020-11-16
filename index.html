@@ -9,23 +9,23 @@
 <body>
     <!-- Create the header with 3 links -->
     <div class="bar">
-        <button class="nav home">Home</button>
-        <button class="nav about">About</button>
-        <button class="nav contactMe">Contact Me</button>
+        <button class="nav" id="defaultPage" onclick="openPage('Home')">Home</button>
+        <button class="nav" onclick="openPage('About')">About</button>
+        <button class="nav" onclick="openPage('Contact')">Contact Me</button>
     </div>
 
     <!-- Home page -->
-    <div class="pageContent">
+    <div class="pageContent" id="Home">
         <h3>This is the home page</h3>
     </div>
 
     <!-- About page -->
-    <div class="pageContent">
+    <div class="pageContent" id="About">
         <h3>This is the about page</h3>
     </div>
 
     <!-- Contact me page -->
-    <div class="pageContent">
+    <div class="pageContent" id="Contact">
         <h3>This is the Contact me page</h3>
     </div>
 
